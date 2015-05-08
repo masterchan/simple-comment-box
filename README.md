@@ -1,13 +1,13 @@
-# [Simple Comment Box]
+# Simple Comment Box
 
-## [How to Install]
+## How to Install
 
 - import the .sql file to your database
 - configure database settings in db-comment.php
 - configure API url in imComment.js
 - insert this html code to wherever you want this comment box (A plugin for Mediawiki was made for your convenience).
 
-```
+``` html
 <div id="imCommentBox">
 <div id="comment-hint" style="">Submitting Comment...</div>
 	<input name="articleID" value="<!--put your unique article ID HERE-->" type="hidden" id="imArticleID" />
@@ -17,19 +17,19 @@
 <div id="comment-startflag"></div>
 <div id="comment-endflag"></div>
 
-<script type="text/javascript" src="https://api.ink.moe/mcme/imComment.js"></script>
+<script type="text/javascript" src="https://YOURAPIURL/imComment.js"></script>
 ```
 
 
 
-## [Demo]
+## Demo
 
 [My Blog](https://note.masterchan.me)
 
 
 
 
-## [License]
+## License
 
 Copyright [2015] [masterchan]
 
